@@ -1,0 +1,30 @@
+
+$zindex-offcanvas:5;
+$offcanvas-horizontal-width:        18%;
+$offcanvas-vertical-height:         30vh;
+$offcanvas-transition-duration:     .3s;
+$data-bs-backdrop:false;
+$primary: rgb(230, 93, 14);
+$secondary:rgb(102, 228, 18);
+$third:rgb(7, 220, 228);
+$dropdown-bg:                       $third;
+$border-radius:1.9rem;
+$dropdown-border-radius:            $border-radius !default;
+$offcanvas-border-width: 0;
+$dropdown-link-hover-bg: rgb(255, 0, 0);
+$dropdown-padding-y: 1rem;
+$overflow-y: none;
+$dropdown-min-width: 8rem;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+$font-family-base:"maven pro";
+$modal-backdrop-bg: none;
+$border-style: 2px solid rgb(24, 105, 180);
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Indie+Flower&family=Lobster&family=Lobster+Two&family=Maven+Pro:wght@400;500&family=Quicksand:wght@400;700&family=Roboto:wght@100;400&display=swap');
+@import "_navbar.scss";
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
