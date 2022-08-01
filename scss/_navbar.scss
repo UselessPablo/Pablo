@@ -133,5 +133,10 @@ p{
   }
 video{
   max-width: 240px;
-  border: solid 2px $primary;
+  border: solid 2px $third;
+  border-radius: 1.3rem;
 }
+section  p {
+  color: $secondary;
+}
+

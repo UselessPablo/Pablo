@@ -107,7 +107,11 @@ ul li img {
 
 video {
   max-width: 240px;
-  border: solid 2px #e65d0e; }
+  border: solid 2px #07dce4;
+  border-radius: 1.3rem; }
+
+section p {
+  color: #66e412; }
 
 /*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
