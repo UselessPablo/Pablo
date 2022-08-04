@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Drums-Hear</title>
+</head>
+<body class="bg_musica">
+    <h1 class="text-center">Música</h1>
+    <div class="container d-inline-flex justify-content-end me-5 ">
+        <div class="">
+      <a class=" btn btn-primary mt-5 blink-2"   data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
+            <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+            <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+            <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+            <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="offcanvas offcanvas-start mt-5" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <a href="./index.html"><h5 id="offcanvasExampleLabel ">Drums</h5></a>
+          <button type="button" class="btn pt-1 ps-2 ms-3 btn-warning" data-dismiss="modal" data-bs-toggle="offcanvas"  aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-backspace-fill" viewBox="0 0 15 16">
+            <path d="M15.683 3a2 2 0 0 0-2-2h-7.08a2 2 0 0 0-1.519.698L.241 7.35a1 1 0 0 0 0 1.302l4.843 5.65A2 2 0 0 0 6.603 15h7.08a2 2 0 0 0 2-2V3zM5.829 5.854a.5.5 0 1 1 .707-.708l2.147 2.147 2.146-2.147a.5.5 0 1 1 .707.708L9.39 8l2.146 2.146a.5.5 0 0 1-.707.708L8.683 8.707l-2.147 2.147a.5.5 0 0 1-.707-.708L7.976 8 5.829 5.854z"/>
+          </svg></button>
+          <div>
+          </div>
+          </div>
+          
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary ms-5 dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+              Ver
+            </button>
+            <ul class="dropdown-menu me-5 mt-5" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item rounded me-2 mt-2" href="hear.html"><img src="./img/hear.svg" alt="Escuchar"></a></li>
+              <li><a class="dropdown-item rounded mt-2" href="#"><img src="./img/video.svg" alt="Ver videos"></a></li>
+              <li><a class="dropdown-item rounded mt-2 mb-2" href="#"><img src="./img/info.svg" alt="información"></a></li>
+            </ul>
+          </div>
+        </div>
+        
+    
+          <div class="container d-flex justify-content-center">
+    <audio controls autoply src="./audio/sound1.MP3" type="audio/mp3"></audio>
+    <audio controls autoply src="./audio/sound2.MP3" type="audio/mp3"></audio>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

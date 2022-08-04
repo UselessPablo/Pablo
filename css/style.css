@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Indie+Flower&family=Lobster&family=Lobster+Two&family=Maven+Pro:wght@400;500&family=Quicksand:wght@400;700&family=Roboto:wght@100;400&display=swap");
+a {
+  text-decoration: none; }
+
 html {
   font-size: 85.5%; }
 
@@ -6,7 +9,7 @@ body {
   margin: 1rem;
   padding: 1rem; }
 
-.bg_index {
+.bg_index, .bg_musica {
   background-image: url("../img/fondo1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,6 +22,9 @@ h1, .h1, h5, .h5 {
   color: white;
   font-weight: 700;
   font-size: 2.2rem; }
+
+a {
+  text-decoration: none; }
 
 p {
   color: greenyellow;
@@ -47,10 +53,13 @@ section {
     margin-right: 10px;
     margin-bottom: 30px; }
 
-ul li img {
-  width: 40px;
-  max-height: 40px;
-  margin-left: 33%; }
+ul {
+  display: flex;
+  align-items: center; }
+  ul li img {
+    width: 40px;
+    max-height: 40px;
+    margin-left: 33%; }
 
 .div__size {
   height: 280px;
@@ -112,6 +121,45 @@ video {
 
 section p {
   color: #66e412; }
+
+a {
+  text-decoration: none; }
+
+.wavs {
+  width: 400px;
+  height: 100px;
+  margin: 50px auto; }
+
+span {
+  display: inline-block;
+  background-color: #ff9100;
+  width: 20px;
+  height: 20px;
+  animation: wave 2s linear infinite; }
+
+.a1 {
+  animation-delay: 0s; }
+
+.a2 {
+  animation-delay: .2s; }
+
+.a3 {
+  animation-delay: .4s; }
+
+.a4 {
+  animation-delay: .6s; }
+
+.a5 {
+  animation-delay: .8s; }
+
+@keyframes wave {
+  0%, 50%, 75%, 100% {
+    height: 5px;
+    transform: translateY(0px); }
+  25% {
+    height: 30px;
+    transform: translateY(15px);
+    background-color: #00b7ff; } }
 
 /*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
